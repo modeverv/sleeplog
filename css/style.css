@@ -1,0 +1,113 @@
+/*
+##########################
+# reset
+##########################
+*/
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+* {
+    -webkit-appearance: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+a {
+    display: block;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* 
+##########################
+# base
+##########################
+*/
+
+/* clearfix */
+
+*:after {
+    display: block;
+    clear: both;
+}
+
+body {
+    width: 100%;
+}
+
+/* 
+##########################
+# site
+##########################
+*/
+
+header h1, article section {
+    margin: 10px;
+    text-align: center;
+}
+
+.submit-btn {
+    border-radius: 12px;
+    text-shadow: 2px 1px 3px #666666;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 50px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.submit-btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+
+.table table {
+    margin: 0 auto;
+}
+
+.table table, .table table th, .table table td {
+    border-collapse: collapse;
+    border: 1px solid #999;
+}
+
+.table table th, .table table td {
+    padding: 10px;
+}
+
+.table table th {
+    background-color: #ddd
+}
