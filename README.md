@@ -15,7 +15,7 @@ logging sleep and wakeup.
 ### Setup sqlite db file
 
 ```bash
-sqlite3 /path/to/sleeplog.db
+sqlite3 /path/to/sleeplog.db
 ```
 
 ```sql
